@@ -21,7 +21,10 @@ def Madlibs (debug = False):
          print("\n")
          input("Press ENTER to continue")
 
-
+	elif choice == "2":
+         print(Story2())
+         print("\n")
+         input("Press ENTER to continue")
 
 
 Madlibs(False)

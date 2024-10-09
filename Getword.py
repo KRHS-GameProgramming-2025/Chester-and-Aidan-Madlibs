@@ -88,6 +88,32 @@ def getAnmial(prompt, debug = False):
        
             
     return word
+    
+def getWeekday(prompt, debug = False):
+    if debug: print("getWeekday Function")
+    
+    goodInput = False 
+    
+    weekday = [ "Monday",
+               "Tuesday",
+               "Wednesday",
+               "Thursday",
+               "Friday",
+               "Saturday",
+               "Sunday"]
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear(word, debug):
+            goodInput = False
+            print ("Please don't say that")
+        elif word.lower() not in sports:
+            goodInput = False
+            print ("Sorry that sport won't work")
+       
+            
+    return word
 
 def isSwear(word, debug = False):
      if debug: print("isSwear Function")
