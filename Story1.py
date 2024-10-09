@@ -11,6 +11,7 @@ def Story1(debug = False):
     out = "\n"
     out += "One day my friend, " + friendName1 + ", and I"
     out += " were out playing " + sport1
-    out += " we saw someone walking an " + anmial1
+    out += " and we saw someone walking an " + anmial1
+    out += " it came over to us and " + verb1
     
     return out
