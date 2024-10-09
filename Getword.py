@@ -65,6 +65,30 @@ def getSport(prompt, debug = False):
        
             
     return word
+    
+def getAnmial(prompt, debug = False):
+    if debug: print("getAnmial Function")
+    
+    goodInput = False 
+    
+    anmial = [ "cat",
+               "dog",
+               "rabbit",
+               "pig"]
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear(word, debug):
+            goodInput = False
+            print ("Please don't say that")
+        elif word.lower() not in anmial:
+            goodInput = False
+            print ("Sorry that anmial won't work")
+       
+            
+    return word
+
 def isSwear(word, debug = False):
      if debug: print("isSwear Function")
      if word.lower() in swearList:
@@ -74,4 +98,7 @@ def isSwear(word, debug = False):
     
 swearList = [ "poop",
               "pee"
+              "fuck"
+              "shit"
+              "crap"
 ]

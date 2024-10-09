@@ -6,9 +6,11 @@ def Story1(debug = False):
     print("\n")
     friendName1 = getWord("Enter a name: ", debug)
     sport1 = getSport("Enter a Sport: ", debug)
+    anmial1 = getAnmial("Enter a Anmial: ", debug)
    
     out = "\n"
     out += "One day my friend, " + friendName1 + ", and I"
     out += " were out playing " + sport1
+    out += " we saw someone walking an " + anmial1
     
     return out
