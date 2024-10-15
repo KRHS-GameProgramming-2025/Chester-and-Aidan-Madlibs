@@ -7,7 +7,7 @@ def Story1(debug = False):
     friendName1 = getWord("Enter a Name: ", debug)
     sport1 = getSport("Enter a Sport: ", debug)
     anmial1 = getAnmial("Enter a Anmial: ", debug)
-    verb1 = getWored("Enter a Verb: ", debug)
+    verb1 = getWord("Enter a Verb: ", debug)
    
     out = "\n"
     out += "One day my friend, " + friendName1 + ", and I"
