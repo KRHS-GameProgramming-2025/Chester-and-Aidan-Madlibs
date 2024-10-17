@@ -11,7 +11,7 @@ def Story2(debug = False):
     animal2 = getWord("Enter the plural version of the animal: ", debug)
     game1 = getWord("Enter a video game: ", debug)
     game2 = getWord("Enter a different video game: ", debug)
-    restaurant = getRestaurant("Enter a fast food restuaant: ", debug)
+    restaurant = getRestaurant("Enter a fast food restuarant: ", debug)
     
     
    
@@ -21,7 +21,8 @@ def Story2(debug = False):
     out += " After that I went home and saw the alien again. It transformed into a " + animal1 + "."
     out += " It saw me playing " + game1 + ", and wanted to play too. I love " + animal2 + ", so I let him play. "
     out += "The alien wanted to play " + game2 + " instead, so we did. "
-    out += "After a while, we got hungry and got food at " + restaurant + "."
+    out += "After a while, we got hungry and got food at " + restaurant + ". "
+    out += "That was a good " + weekday + "."
         
     return out
 
