@@ -3,14 +3,16 @@ from Getword import *
 from Story1 import * 
 from Story2 import *
 
+
 def Madlibs (debug = False):
-	if debug: print("Welcome to debug")
-	
-	print (Titlescreen(debug))
-	input("Press ENTER to continue")
+    if debug: print("Welcome to debug")
+    
+    print (Titlescreen(debug))
+    input("Press ENTER to continue")
 
-	done = False
+    done = False
 
+    while not done:
 	while not done:
 		print(Mainmenu(debug))
 		choice = getMenuOption(debug)
