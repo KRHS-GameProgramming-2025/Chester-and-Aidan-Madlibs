@@ -13,25 +13,24 @@ def Madlibs (debug = False):
     done = False
 
     while not done:
-	while not done:
-		print(Mainmenu(debug))
-		choice = getMenuOption(debug)
+        print(Mainmenu(debug))
+        choice = getMenuOption(debug)
 
-		if choice == "q":
-			exit()
+        if choice == "q":
+            exit()
 
-		elif choice == "1":
-			print(Story1())
-			print("\n")
-			input("Press ENTER to continue")
+        elif choice == "1":
+            print(Story1())
+            print("\n")
+            input("Press ENTER to continue")
 
-		elif choice == "2":
-			print(Story2())
-			print("\n")
-			input("Press ENTER to continue")
+        elif choice == "2":
+            print(Story2())
+            print("\n")
+            input("Press ENTER to continue")
 
 
-		else: print("Make a valid input")
+        else: print("Make a valid input")
 
 
 Madlibs(False)

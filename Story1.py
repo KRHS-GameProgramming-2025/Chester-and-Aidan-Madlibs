@@ -21,6 +21,6 @@ def Story1(debug = False):
     out += friendName1 + " was scared of the " + anmial1 + " so " + pronoun1
     out += " went to the " + color1 + " house down the street"
     out += " I went after " + pronoun2 + " to be a friend, but when I got there " + pronoun1 + " was eating a " + bakedGood1 
-    out += " I asked where " + pronon1 + " got the " + bakedGood1
+    out += " I asked where " + pronoun1 + " got the " + bakedGood1
     
     return out
