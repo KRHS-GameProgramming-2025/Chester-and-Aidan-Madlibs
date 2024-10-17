@@ -99,7 +99,8 @@ def getAnmial(prompt, debug = False):
                "pig",
                "horse",
                "donkey",
-               "lizard"]
+               "lizard",
+               "rat"]
     
     while not goodInput:
         word = input(prompt)
@@ -168,6 +169,32 @@ def getRestaurant(prompt, debug = False):
         elif word.lower() not in restaurant:
             goodInput = False
             print ("Sorry that restaurant won't work")
+       
+            
+    return word
+    
+def getClass(prompt, debug = False):
+    if debug: print("getClass Function")
+    
+    goodInput = False 
+    
+    class = ["la",
+             "math",
+             "programing",
+             "scoical studies",
+             "science",
+             "art",
+             "band",   ]
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear(word, debug):
+            goodInput = False
+            print ("Please don't say that")
+        elif word.lower() not in class:
+            goodInput = False
+            print ("Sorry that class won't work")
        
             
     return word
