@@ -157,7 +157,8 @@ def getRestaurant(prompt, debug = False):
                "dominos",
                "pizza hut",
                "dunkins",
-               "dunkin donuts"]
+               "dunkin donuts",
+               "burger king"]
     
     while not goodInput:
         word = input(prompt)
