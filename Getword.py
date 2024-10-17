@@ -96,7 +96,10 @@ def getAnmial(prompt, debug = False):
     anmial = [ "cat",
                "dog",
                "rabbit",
-               "pig"]
+               "pig",
+               "horse",
+               "donkey",
+               "lizard"]
     
     while not goodInput:
         word = input(prompt)
@@ -116,13 +119,13 @@ def getWeekday(prompt, debug = False):
     
     goodInput = False 
     
-    weekday = [ "Monday",
-               "Tuesday",
-               "Wednesday",
-               "Thursday",
-               "Friday",
-               "Saturday",
-               "Sunday"]
+    weekday = [ "monday",
+               "tuesday",
+               "wednesday",
+               "thursday",
+               "friday",
+               "saturday",
+               "sunday"]
     
     while not goodInput:
         word = input(prompt)
@@ -130,12 +133,45 @@ def getWeekday(prompt, debug = False):
         if isSwear(word, debug):
             goodInput = False
             print ("Please don't say that")
-        elif word.lower() not in sports:
+        elif word.lower() not in weekday:
             goodInput = False
-            print ("Sorry that sport won't work")
+            print ("Sorry that won't work")
        
             
     return word
+    
+    
+def getRestaurant(prompt, debug = False):
+    if debug: print("getRestaurant Function")
+    
+    goodInput = False 
+    
+    restaurant = [ "mcondalds",
+               "mcdonald's",
+               "subway",
+               "wendys",
+               "wendy's",
+               "subway",
+               "chic fil a",
+               "dominoes",
+               "dominos",
+               "pizza hut",
+               "dunkins",
+               "dunkin donuts"]
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear(word, debug):
+            goodInput = False
+            print ("Please don't say that")
+        elif word.lower() not in restaurant:
+            goodInput = False
+            print ("Sorry that restaurant won't work")
+       
+            
+    return word
+
 
 def isSwear(word, debug = False):
      if debug: print("isSwear Function")
