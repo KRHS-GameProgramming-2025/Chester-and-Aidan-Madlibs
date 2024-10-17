@@ -139,14 +139,18 @@ def getWeekday(prompt, debug = False):
 
 def isSwear(word, debug = False):
      if debug: print("isSwear Function")
+     if debug: print(word)
      if word.lower() in swearList:
+         if debug: print("True")
          return True
      else:
+         if debug: print("False")
          return False
     
 swearList = [ "poop",
-              "pee"
-              "fuck"
-              "shit"
-              "crap"
+              "pee",
+              "fuck",
+              "shit",
+              "crap",
+              "motherfucker"
 ]
