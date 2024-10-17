@@ -2,6 +2,8 @@ from Screens import *
 from Getword import * 
 from Story1 import * 
 from Story2 import *
+from Story3 import *
+from Story4 import *
 
 
 def Madlibs (debug = False):
@@ -26,6 +28,16 @@ def Madlibs (debug = False):
 
         elif choice == "2":
             print(Story2(debug))
+            print("\n")
+            input("Press ENTER to continue")
+            
+        elif choice == "3":
+            print(Story3(debug))
+            print("\n")
+            input("Press ENTER to continue")
+            
+        elif choice == "4":
+            print(Story4(debug))
             print("\n")
             input("Press ENTER to continue")
 
