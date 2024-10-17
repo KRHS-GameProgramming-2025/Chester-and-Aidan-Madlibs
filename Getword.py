@@ -146,7 +146,7 @@ def getRestaurant(prompt, debug = False):
     
     goodInput = False 
     
-    restaurant = [ "mcondalds",
+    restaurant = [ "mcdonalds",
                "mcdonald's",
                "subway",
                "wendys",
