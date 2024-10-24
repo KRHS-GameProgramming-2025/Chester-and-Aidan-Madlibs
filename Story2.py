@@ -22,6 +22,7 @@ def Story2(debug = False):
     out += " It saw me playing " + game1 + ", and wanted to play too. I love " + animal2 + ", so I let him play. "
     out += "The alien wanted to play " + game2 + " instead, so we did. "
     out += "After a while, we got hungry and got food at " + restaurant + ". "
+    out += "When we returned, the " + animal1 + " and I had a fun rest of the night"
     out += "That was a good " + weekday + "."
         
     return out
