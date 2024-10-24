@@ -8,7 +8,7 @@ from Story4 import *
 
 def Madlibs (debug = False):
     if debug: print("Welcome to debug")
-    
+   
     print (Titlescreen(debug))
     input("Press ENTER to continue")
 
@@ -20,6 +20,7 @@ def Madlibs (debug = False):
 
         if choice == "q":
             exit()
+            print(Creditscreen(debug))
 
         elif choice == "1":
             print(Story1(debug))
