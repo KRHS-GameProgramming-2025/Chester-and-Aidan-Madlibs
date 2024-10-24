@@ -152,14 +152,15 @@ def getRestaurant(prompt, debug = False):
                "subway",
                "wendys",
                "wendy's",
-               "subway",
                "chic fil a",
                "dominoes",
                "dominos",
                "pizza hut",
                "dunkins",
                "dunkin donuts",
-               "burger king"]
+               "burger king",
+               "five guys",
+               "five guy's"]
     
     while not goodInput:
         word = input(prompt)
