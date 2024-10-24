@@ -19,8 +19,8 @@ def Madlibs (debug = False):
         choice = getMenuOption(debug)
 
         if choice == "q":
-            exit()
             print(Creditscreen(debug))
+            exit()
 
         elif choice == "1":
             print(Story1(debug))

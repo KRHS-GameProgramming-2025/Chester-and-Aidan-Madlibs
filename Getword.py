@@ -180,13 +180,13 @@ def getClass(prompt, debug = False):
     
     goodInput = False 
     
-    class = ["la",
+    class2 = ["english",
              "math",
              "programing",
              "scoical studies",
              "science",
              "art",
-             "band",   ]
+             "band"]
     
     while not goodInput:
         word = input(prompt)
@@ -194,7 +194,7 @@ def getClass(prompt, debug = False):
         if isSwear(word, debug):
             goodInput = False
             print ("Please don't say that")
-        elif word.lower() not in class:
+        elif word.lower() not in class2:
             goodInput = False
             print ("Sorry that class won't work")
        
