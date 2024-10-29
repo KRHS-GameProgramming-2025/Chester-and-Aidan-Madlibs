@@ -77,7 +77,8 @@ def getSport(prompt, debug = False):
                "hockey",
                "basketball",
                "baseball",
-               "skiing"]
+               "skiing",
+               "vollyball"]
     
     while not goodInput:
         word = input(prompt)
@@ -105,7 +106,8 @@ def getAnmial(prompt, debug = False):
                "donkey",
                "lizard",
                "rat",
-               "mouse"]
+               "mouse",
+               "bird"]
     
     while not goodInput:
         word = input(prompt)
@@ -191,7 +193,8 @@ def getClass(prompt, debug = False):
              "scoical studies",
              "science",
              "art",
-             "band"]
+             "band",
+             "hell"]
     
     while not goodInput:
         word = input(prompt)
@@ -199,6 +202,10 @@ def getClass(prompt, debug = False):
         if isSwear(word, debug):
             goodInput = False
             print ("Please don't say that")
+        elif word.lower() == "programing":
+            print ("that is an asome class")
+        elif word.lower() == "hell":
+            print ("Really?")
         elif word.lower() not in class2:
             goodInput = False
             print ("Sorry that class won't work")
@@ -275,5 +282,6 @@ swearList = [ "poop",
               "shitty",
               "crap",
               "motherfucker",
-              "crappy"
+              "crappy",
+              "pussy"
 ]
