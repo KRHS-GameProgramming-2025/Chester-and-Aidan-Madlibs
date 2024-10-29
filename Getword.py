@@ -107,7 +107,8 @@ def getAnmial(prompt, debug = False):
                "lizard",
                "rat",
                "mouse",
-               "bird"]
+               "bird",
+               "fish"]
     
     while not goodInput:
         word = input(prompt)
@@ -115,6 +116,8 @@ def getAnmial(prompt, debug = False):
         if isSwear(word, debug):
             goodInput = False
             print ("Please don't say that")
+        elif word.lower() == "fish":
+            print(" >==:0 ")
         elif word.lower() not in anmial:
             goodInput = False
             print ("Sorry that anmial won't work")
@@ -203,7 +206,7 @@ def getClass(prompt, debug = False):
             goodInput = False
             print ("Please don't say that")
         elif word.lower() == "programing":
-            print ("that is an asome class")
+            print ("that is an awesome class")
         elif word.lower() == "hell":
             print ("Really?")
         elif word.lower() not in class2:
