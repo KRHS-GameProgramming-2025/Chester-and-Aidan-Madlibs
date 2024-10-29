@@ -13,8 +13,6 @@ def Story2(debug = False):
     game2 = getWord("Enter a different video game: ", debug)
     restaurant = getRestaurant("Enter a fast food restuarant: ", debug)
     
-    
-   
     out = "\n"
     out += "One " + weekday + ", I was "
     out += verb + " in a field. Then I suddenly saw a " + color1 + " alien " + verb + " with me!"

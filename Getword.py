@@ -37,6 +37,7 @@ def getMenuOption(debug = False):
         or option == "story3"):
             option = "3"
             goodInput = True
+            
         elif (option == "4" 
         or option == "four"
         or option == "story 4" 
@@ -73,7 +74,10 @@ def getSport(prompt, debug = False):
     
     sports = [ "soccer",
                "football",
-               "hockey"]
+               "hockey",
+               "basketball",
+               "baseball",
+               "skiing"]
     
     while not goodInput:
         word = input(prompt)
@@ -100,7 +104,8 @@ def getAnmial(prompt, debug = False):
                "horse",
                "donkey",
                "lizard",
-               "rat"]
+               "rat",
+               "mouse"]
     
     while not goodInput:
         word = input(prompt)
@@ -200,6 +205,56 @@ def getClass(prompt, debug = False):
        
             
     return word
+    
+    
+def getConsole(prompt, debug = False):
+    if debug: print("getConsole Function")
+    
+    goodInput = False 
+    
+    console1 = ["xbox",
+             "playstation",
+             "pc",
+             "computer",
+             "play station"]
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear(word, debug):
+            goodInput = False
+            print ("Please don't say that")
+        elif word.lower() not in console1:
+            goodInput = False
+            print ("Sorry that console won't work")
+       
+            
+    return word
+    
+    
+def getDrink(prompt, debug = False):
+    if debug: print("getDrink Function")
+    
+    goodInput = False 
+    
+    drink1 = ["water",
+             "milk",
+             "chocolate milk",
+             "juice",
+             "gatorade"]
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear(word, debug):
+            goodInput = False
+            print ("Please don't say that")
+        elif word.lower() not in drink1:
+            goodInput = False
+            print ("Sorry that drink won't work")
+       
+            
+    return word
 
 
 def isSwear(word, debug = False):
@@ -215,7 +270,10 @@ def isSwear(word, debug = False):
 swearList = [ "poop",
               "pee",
               "fuck",
+              "fucker",
               "shit",
+              "shitty",
               "crap",
-              "motherfucker"
+              "motherfucker",
+              "crappy"
 ]
