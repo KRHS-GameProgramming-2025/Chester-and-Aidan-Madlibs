@@ -9,8 +9,8 @@ def Story3(debug = False):
     sport1=getSport("Enter a Sport: ", debug)
     food1=getWord("Enter a Food Item: ", debug)
     book1=getWord ("Enter a Book: ", debug)
-    game1=gteWord("Enetr a Video Game: ", debug)
-    money=getWord("Enter a Money Amount: ", debug)
+    game1=getWord("Enetr a Video Game: ", debug)
+    money1=getWord("Enter a Money Amount: ", debug)
     name1=getWord("Enter a Name: ", debug)
     
     out="\n"
@@ -24,8 +24,8 @@ def Story3(debug = False):
     out += " I also wanted to see if the book shop had that book so we went in. After getting the book the little guy said 'I see a game shop i wnat to get " + game1 + "'"
     out += " I said 'I don't have any money left though', the little guy pondered for a ssecond and then pulled out " + money1 + "from his pocket."
     out += " After seeing that he had money, we went in and got the game."
-    out += " After all the shopping that the little guy wanted was over he said 'thank you for such  fun time, also my name is " + name1 + "'"
-    out += "and then I was transproted back to school only to relise that I had missed class" 
+    out += " After all the shopping that the little guy wanted was over he said 'thank you for such fun time, also my name is " + name1 + "'"
+    out += " and then I was transproted back to school only to relise that I had missed class" 
     
     
     
