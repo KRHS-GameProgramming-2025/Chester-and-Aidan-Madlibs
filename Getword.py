@@ -117,7 +117,7 @@ def getAnmial(prompt, debug = False):
             goodInput = False
             print ("Please don't say that")
         elif word.lower() == "fish":
-            print(" >==:0 ")
+            print(">==:0")
         elif word.lower() not in anmial:
             goodInput = False
             print ("Sorry that anmial won't work")
