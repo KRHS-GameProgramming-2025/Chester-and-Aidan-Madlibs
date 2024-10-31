@@ -4,6 +4,8 @@ def Story1(debug = False):
     if debug: print("Story1 Function")
     
     print("\n")
+    print("----------------------------------------------------Story 1-------------------------------------------------------------")
+    print("\n")
     friendName1 = getWord("Enter a Name: ", debug)
     sport1 = getSport("Enter a Sport: ", debug)
     anmial1 = getAnmial("Enter a Anmial: ", debug)
