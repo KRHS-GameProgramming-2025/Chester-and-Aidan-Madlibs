@@ -1,3 +1,6 @@
+from Screens import * 
+
+
 def getMenuOption(debug = False):
     if debug: print("getMenuOption Function")
     
@@ -93,9 +96,13 @@ def getSport(prompt, debug = False):
         if isSwear(word, debug):
             goodInput = False
             print ("Please don't say that")
+        elif word.lower() == "h" or word.lower() == "help":
+            goodInput = False
+            print (HelpScreen(debug))
         elif word.lower() not in sports:
             goodInput = False
             print ("Sorry that sport won't work")
+            
        
             
     return word
@@ -123,6 +130,9 @@ def getAnmial(prompt, debug = False):
         if isSwear(word, debug):
             goodInput = False
             print ("Please don't say that")
+        elif word.lower() == "h" or word.lower() == "help":
+            goodInput = False
+            print (HelpScreen(debug))
         elif word.lower() == "fish":
             print(">==:0")
         elif word.lower() not in anmial:
@@ -151,6 +161,9 @@ def getWeekday(prompt, debug = False):
         if isSwear(word, debug):
             goodInput = False
             print ("Please don't say that")
+        elif word.lower() == "h" or word.lower() == "help":
+            goodInput = False
+            print (HelpScreen(debug))
         elif word.lower() not in weekday:
             goodInput = False
             print ("Sorry that won't work")
@@ -185,6 +198,9 @@ def getRestaurant(prompt, debug = False):
         if isSwear(word, debug):
             goodInput = False
             print ("Please don't say that")
+        elif word.lower() == "h" or word.lower() == "help":
+            goodInput = False
+            print (HelpScreen(debug))
         elif word.lower() not in restaurant:
             goodInput = False
             print ("Sorry that restaurant won't work")
@@ -212,6 +228,9 @@ def getClass(prompt, debug = False):
         if isSwear(word, debug):
             goodInput = False
             print ("Please don't say that")
+        elif word.lower() == "h" or word.lower() == "help":
+            goodInput = False
+            print (HelpScreen(debug))
         elif word.lower() == "programing":
             print ("that is an awesome class")
         elif word.lower() == "hell":
@@ -242,6 +261,9 @@ def getConsole(prompt, debug = False):
         if isSwear(word, debug):
             goodInput = False
             print ("Please don't say that")
+        elif word.lower() == "h" or word.lower() == "help":
+            goodInput = False
+            print (HelpScreen(debug))
         elif word.lower() not in console1:
             goodInput = False
             print ("Sorry that console won't work")
@@ -267,6 +289,9 @@ def getDrink(prompt, debug = False):
         if isSwear(word, debug):
             goodInput = False
             print ("Please don't say that")
+        elif word.lower() == "h" or word.lower() == "help":
+            goodInput = False
+            print (HelpScreen(debug))
         elif word.lower() not in drink1:
             goodInput = False
             print ("Sorry that drink won't work")
