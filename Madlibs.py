@@ -41,6 +41,11 @@ def Madlibs (debug = False):
             print(Story4(debug))
             print("\n")
             input("Press ENTER to continue")
+            
+        elif choice == "h":
+            print(HelpScreen(debug))
+            input("Press ENTER to continue")
+            
 
 
         else: print("Make a valid input")

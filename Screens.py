@@ -72,3 +72,31 @@ def Creditscreen(debug = False):
     s +=  "-----------------------------------------------------------------------------------------------------------------------\n"
     
     return s
+    
+    
+    
+    
+def HelpScreen(debug = False):
+    if debug: print("HelpScreen Function")
+   
+    s =  "------------------------------------------------------------------------------------------------------------------------\n"
+    s += "|                                                       Help Screen                                                    |\n"
+    s += "|                                                                                                                      |\n"
+    s += "|                                                                                                                      |\n"
+    s += "|     Animal options: cat, dog, rabbit, pig, horse, donkey, lizard, rat, mouse, bird, fish                             |\n"                                                                             
+    s += "|     Sport options: soccer, football, hockey, basketball, baseball, skiing, vollyball                                 |\n"                                                          
+    s += "|     Restaurant options: mcdonalds, mcdonald's, subway, wendys, wendy's, chic fil a, dominoes, dominos, pizza hut,    |\n"
+    s += "|        dunkins, dunkin donuts, burger king, five guys, five guy's                                                    |\n"                      
+    s += "|     Class options: english, math, programing, scoical studies, science, art, band                                    |\n"
+    s += "|     Console options: xbox, playstation, pc, computer, play station, switch                                           |\n"
+    s += "|     Drink options: water, milk,chocolate milk, juice, gatorade                                                       |\n"
+    s += "|                                                                                                                      |\n"
+    s += "|                                                                                                                      |\n"
+    s += "|                                                                                                                      |\n"
+    s += "|                                                                                                                      |\n"
+    s += "|                                                                                                                      |\n"
+    s += "|                                                                                                                      |\n"
+    s += "|                                                                                                                      |\n"
+    s +=  "-----------------------------------------------------------------------------------------------------------------------\n"
+    
+    return s

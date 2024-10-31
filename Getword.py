@@ -44,6 +44,13 @@ def getMenuOption(debug = False):
         or option == "story4"):
             option = "4"
             goodInput = True
+            
+        elif (option == "h" 
+        or option == "help"
+        or option == "Help" 
+        or option == "H"):
+            option = "h"
+            goodInput = True
 
         else:
             print("Please select a valid option")
