@@ -4,6 +4,8 @@ def Story3(debug = False):
     if debug: print("Story3 Function")
     
     print("\n")
+    print("----------------------------------------------------Story 3-------------------------------------------------------------")
+    print("\n")
     class1=getClass("Enter a Class: ", debug)
     color1=getWord("Enter a Color: ", debug)
     sport1=getSport("Enter a Sport: ", debug)

@@ -4,6 +4,8 @@ def Story4(debug = False):
     if debug: print("Story4 Function")
     
     print("\n")
+    print("----------------------------------------------------Story 4-------------------------------------------------------------")
+    print("\n")
     animal1 = getAnmial("Enter an animal: ", debug)
     animal2 = getAnmial("Enter a different animal: ", debug)
     verb1 = getWord("Enter a verb: ", debug)

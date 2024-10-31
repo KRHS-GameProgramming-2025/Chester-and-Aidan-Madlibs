@@ -4,6 +4,8 @@ def Story2(debug = False):
     if debug: print("Story2 Function")
     
     print("\n")
+    print("----------------------------------------------------Story 2-------------------------------------------------------------")
+    print("\n")
     weekday = getWeekday("Enter a day of the week: ", debug)
     verb = getWord("Enter a verb ending in ing: ", debug)
     color1 = getWord("Enter a color: ", debug)
