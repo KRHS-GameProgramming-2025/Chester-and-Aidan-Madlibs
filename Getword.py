@@ -226,7 +226,8 @@ def getConsole(prompt, debug = False):
              "playstation",
              "pc",
              "computer",
-             "play station"]
+             "play station",
+             "switch"]
     
     while not goodInput:
         word = input(prompt)
