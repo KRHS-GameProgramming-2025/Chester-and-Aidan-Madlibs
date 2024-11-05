@@ -13,6 +13,7 @@ def Story4(debug = False):
     console1 = getConsole("Enter a gaming console: ", debug)
     friend1 = getWord("Enter a name: ", debug)
     drink1 = getDrink("Enter a drink: ", debug)
+    class1 = getClass("Enter a class: ", debug)
     
     out = "\n"
     out += "I was walking my " + animal1 + ", when I saw someone walking a(n) " + animal2 + "."
@@ -27,5 +28,7 @@ def Story4(debug = False):
     out += " This time the " + animal2 + " won."
     out += " They were having so much fun, my friend " + friend1 + " and I joined in."
     out += " " + friend1 + " loves to play " + sport1 + "."
-        
+    out += " The next day, I went to my first class, " + class1 + "."
+    out += " I do not like " + class1 + "."
+
     return out
