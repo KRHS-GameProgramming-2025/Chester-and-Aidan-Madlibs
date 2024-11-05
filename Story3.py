@@ -27,8 +27,6 @@ def Story3(debug = False):
     out += " I said 'I don't have any money left though', the little guy pondered for a second and then pulled out " + money1 + " dollars from his pocket."
     out += " After seeing that he had money, we went in and got the game."
     out += " After all the shopping that the little guy wanted was over he said 'thank you for such fun time, also my name is " + name1 + "'"
-    out += " and then I was transproted back to school only to relise that I had missed class" 
-    
-    
+    out += " and then I was transproted back to school only to realise that I had missed class." 
     
     return out 

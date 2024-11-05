@@ -88,7 +88,9 @@ def getSport(prompt, debug = False):
                "basketball",
                "baseball",
                "skiing",
-               "vollyball"]
+               "vollyball",
+               "lacrosse",
+               "snowboarding"]
     
     while not goodInput:
         word = input(prompt)
@@ -134,7 +136,7 @@ def getAnmial(prompt, debug = False):
             goodInput = False
             print (HelpScreen(debug))
         elif word.lower() == "fish":
-            print(">==:0")
+            print(">=='0")
         elif word.lower() not in anmial:
             goodInput = False
             print ("Sorry that anmial won't work")
@@ -153,7 +155,8 @@ def getWeekday(prompt, debug = False):
                "thursday",
                "friday",
                "saturday",
-               "sunday"]
+               "sunday"
+               ]
     
     while not goodInput:
         word = input(prompt)
@@ -167,7 +170,6 @@ def getWeekday(prompt, debug = False):
         elif word.lower() not in weekday:
             goodInput = False
             print ("Sorry that won't work")
-       
             
     return word
     
@@ -216,11 +218,12 @@ def getClass(prompt, debug = False):
     class2 = ["english",
              "math",
              "programing",
-             "scoical studies",
+             "social studies",
              "science",
              "art",
              "band",
-             "hell"]
+             "hell",
+             "history"]
     
     while not goodInput:
         word = input(prompt)
@@ -253,7 +256,8 @@ def getConsole(prompt, debug = False):
              "pc",
              "computer",
              "play station",
-             "switch"]
+             "switch",
+             "nintendo"]
     
     while not goodInput:
         word = input(prompt)
@@ -281,7 +285,11 @@ def getDrink(prompt, debug = False):
              "milk",
              "chocolate milk",
              "juice",
-             "gatorade"]
+             "gatorade",
+             "apple juice",
+             "orange juice",
+             "tea",
+             "coffee"]
     
     while not goodInput:
         word = input(prompt)
