@@ -4,6 +4,7 @@ from Story1 import *
 from Story2 import *
 from Story3 import *
 from Story4 import *
+from Secretstory import *
 
 
 def Madlibs (debug = False):
@@ -39,6 +40,11 @@ def Madlibs (debug = False):
             
         elif choice == "4":
             print(Story4(debug))
+            print("\n")
+            input("Press ENTER to continue")
+            
+        elif choice == "s":
+            print(Secretstory(debug))
             print("\n")
             input("Press ENTER to continue")
 
