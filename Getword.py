@@ -54,7 +54,12 @@ def getMenuOption(debug = False):
         or option == "H"):
             option = "h"
             goodInput = True
-
+       
+        elif (option == "happy" 
+        or option == "happy!"):
+            option = "happy"
+            goodInput = True
+            
         else:
             print("Please select a valid option")
             

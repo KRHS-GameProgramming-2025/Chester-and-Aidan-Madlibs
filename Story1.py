@@ -27,4 +27,4 @@ def Story1(debug = False):
     out += pronoun1 + " explained that this was a good friend and the " + anmial1 + " was hers, after that we both started laughing, for " + pronoun1 +  " was scared for nothing" 
     
     return out
-	
+
