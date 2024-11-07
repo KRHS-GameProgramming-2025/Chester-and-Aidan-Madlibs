@@ -30,7 +30,7 @@ def Madlibs (debug = False):
 
         elif choice == "2":
             print(Story2(debug))
-            print("\n")
+            print("\n") 
             input("Press ENTER to continue")
             
         elif choice == "3":
@@ -43,8 +43,8 @@ def Madlibs (debug = False):
             print("\n")
             input("Press ENTER to continue")
             
-        elif choice == "s":
-            print(Secretstory(debug))
+        elif choice == "happy":
+            print(Happyscreen(debug))
             print("\n")
             input("Press ENTER to continue")
             exit()

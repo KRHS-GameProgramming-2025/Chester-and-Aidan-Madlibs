@@ -54,14 +54,12 @@ def getMenuOption(debug = False):
         or option == "H"):
             option = "h"
             goodInput = True
-            
-        elif (option == "s" 
-        or option == "secret"
-        or option == "Secret" 
-        or option == "S"):
-            option = "s"
+       
+        elif (option == "happy" 
+        or option == "happy!"):
+            option = "happy"
             goodInput = True
-
+            
         else:
             print("Please select a valid option")
             
@@ -116,12 +114,12 @@ def getSport(prompt, debug = False):
             
     return word
     
-def getAnimal(prompt, debug = False):
-    if debug: print("getAnimal Function")
+def getAnmial(prompt, debug = False):
+    if debug: print("getAnmial Function")
     
     goodInput = False 
     
-    animal = [ "cat",
+    anmial = [ "cat",
                "dog",
                "rabbit",
                "pig",
@@ -144,9 +142,9 @@ def getAnimal(prompt, debug = False):
             print (HelpScreen(debug))
         elif word.lower() == "fish":
             print(">=='0")
-        elif word.lower() not in animal:
+        elif word.lower() not in anmial:
             goodInput = False
-            print ("Sorry that animal won't work")
+            print ("Sorry that anmial won't work")
        
             
     return word
