@@ -47,6 +47,15 @@ def Madlibs (debug = False):
             print(Secretstory(debug))
             print("\n")
             input("Press ENTER to continue")
+            exit()
+            
+            
+        elif choice == "h":
+            print(HelpScreen(debug))
+            print("\n")
+            input("Press ENTER to continue")
+            
+
 
 
         else: print("Make a valid input")
