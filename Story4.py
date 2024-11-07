@@ -16,7 +16,7 @@ def Story4(debug = False):
     class1 = getClass("Enter a class: ", debug)
     
     out = "\n"
-    out += "I was walking my " + animal1 + ", when I saw someone walking a(n) " + animal2 + "."
+    out += "I was walking my " + animal1 + ", when I saw someone walking a " + animal2 + "."
     out += " The " + animal2 + " growled at my " + animal1 + "."
     out += " The two animals then started to " + verb1 + "."
     out += " I took both of them to go play " + sport1 + "."
