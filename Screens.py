@@ -18,7 +18,7 @@ def Titlescreen(debug = False):
     s += "|                                                                                                                      |\n"
     s += "|                                                                                                                      |\n"
     s += "|                                                                                                                      |\n"
-    s +=  "-----------------------------------------------------------------------------------------------------------------------\n"
+    s += "------------------------------------------------------------------------------------------------------------------------\n"
     
     return s
 
@@ -43,7 +43,7 @@ def Mainmenu(debug = False):
     s += "|                                                                                                                      |\n"
     s += "|                                               Quit(Q)                                                                |\n"
     s += "|                                                                                                                      |\n"
-    s +=  "-----------------------------------------------------------------------------------------------------------------------\n"
+    s += "------------------------------------------------------------------------------------------------------------------------\n"
     
     return s
     
@@ -69,7 +69,7 @@ def Creditscreen(debug = False):
     s += "|                                                                                                                      |\n"
     s += "|                                                                                                                      |\n"
     s += "|                                                                                                                      |\n"
-    s +=  "-----------------------------------------------------------------------------------------------------------------------\n"
+    s += "------------------------------------------------------------------------------------------------------------------------\n"
     
     return s
     
@@ -84,20 +84,22 @@ def HelpScreen(debug = False):
     s += "|                                                                                                                      |\n"
     s += "|                                                                                                                      |\n"
     s += "|     Animal options: cat, dog, rabbit, pig, horse, donkey, lizard, rat, mouse, bird, fish                             |\n"                                                                             
-    s += "|     Sport options: soccer, football, hockey, basketball, baseball, skiing, vollyball, lacrosse, snowboarding         |\n"                                                          
-    s += "|     Restaurant options: mcdonalds, mcdonald's, subway, wendys, wendy's, chic fil a, dominoes, dominos, pizza hut,    |\n"
-    s += "|        dunkins, dunkin donuts, burger king, five guys, five guy's                                                    |\n"                      
-    s += "|     Class options: english, math, programing, scoical studies, science, art, band, history                           |\n"
+    s += "|                                                                                                                      |\n"                                                          
+    s += "|     Class options: english, math, programing, social studies, science, art, band, history                            |\n"                      
+    s += "|                                                                                                                      |\n"                                                          
+    s += "|     Sport options: soccer, football, hockey, basketball, baseball, skiing, vollyball                                 |\n"                      
+    s += "|                                                                                                                      |\n"
     s += "|     Console options: xbox, playstation, pc, computer, play station, switch                                           |\n"
-    s += "|     Drink options: water, milk, chocolate milk, juice, gatorade                                                      |\n"
+    s += "|                                                                                                                      |\n"
+    s += "|     Drink options: water, milk, chocolate milk, juice, gatorade, tea, coffee, apple juice, orange juice              |\n"
+    s += "|                                                                                                                      |\n"
+    s += "|     Restaurant options: mcdonalds, mcdonald's, subway, wendys, wendy's, chic fil a, dominoes, dominos, pizza hut,    |\n"
+    s += "|     dunkins, dunkin donuts, burger king, five guys, five guy's                                                       |\n"
+    s += "|                                                                                                                      |\n"
+    s += "|     Class options: english, math, programing, social studies, science, art, band, history                            |\n"
     s += "|                                                                                                                      |\n"
     s += "|                                                                                                                      |\n"
-    s += "|                                                                                                                      |\n"
-    s += "|                                                                                                                      |\n"
-    s += "|                                                                                                                      |\n"
-    s += "|                                                                                                                      |\n"
-    s += "|                                                                                                                      |\n"
-    s +=  "-----------------------------------------------------------------------------------------------------------------------\n"
+    s += "------------------------------------------------------------------------------------------------------------------------\n"
     
     return s
 
@@ -121,6 +123,6 @@ def Happyscreen(debug = False):
     s += "| :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) |\n"
     s += "| :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) |\n"
     s += "| :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) |\n"
-    s +=  "-----------------------------------------------------------------------------------------------------------------------\n"
+    s += "------------------------------------------------------------------------------------------------------------------------\n"
     
     return s

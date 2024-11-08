@@ -47,7 +47,6 @@ def Madlibs (debug = False):
             print(Happyscreen(debug))
             print("\n")
             input("Press ENTER to continue")
-            exit()
             
             
         elif choice == "h":
