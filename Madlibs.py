@@ -55,6 +55,13 @@ def Madlibs (debug = False):
             print("\n")
             input("Press ENTER to continue")
             
+            
+        elif choice == "s":
+            print(Secretstory(debug))
+            print("/n")
+            input("Press ENTER to continue")
+            exit()
+            
 
 
 
